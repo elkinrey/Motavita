@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Estilos.css">
+    <script src="/Funciones.js" type="text/javascript"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Caso 8</title>
+</head>
+<body>   
+    <div class="fondo2">
+        <div class="titulos">
+            <a href="/index.html"><img src="/Imagenes/home.png" class="home" alt=""></a>
+            <h1 class="animate__animated animate__backInLeft">Caso 8 de factorización</h1>
+            <h2 class="animate__animated animate__backInLeft">(Cubo perfecto de binomios)</h2>
+            <img class="animate__animated animate__backInRight" src="/Imagenes/Img7.gif" alt="">
+        </div>
+        <div class="parrafos">
+            <h2 class="animate__animated animate__backInLeft">Definición</h2> <br>
+            <p>
+                Una expresion algebraica ordenada con respecto a una letra es un cubo perfecto, si cumple las siguientes 
+                condiciones:    
+            </p><br>
+            <p>
+                <b>1)</b> Tener cuatro terminos
+            </p><br>
+            <p>
+                <b>2)</b> El primer y último término sean cubos perfectos (Tienen raíz cúbica exacta).
+            </p><br>
+            <p>
+                <b>3)</b> El segundo término es tres veces el producto del cuadrado de la raiz cúbica del primer término 
+                por la raíz cúbica del último término.  
+            </p><br>
+            <p>
+                <b>4)</b> El tercer término sea tres veces, el producto de la raíz del primer término por el cuadrado de la raíz
+                del último término.   
+            </p><br>
+            <p> 
+                <b>5)</b> El primer y tercer término son positivos, el segundo y el cuarto término tienen el mismo signo (positivo o negativo)
+            </p>
+            <video src="/Imagenes/caso8.mp4" controls ></video> <br> <br> <br>
+            <div class="titulos">
+                <img src="/Imagenes/Img5.gif" alt="">
+                <h1 class="animate__animated animate__backInLeft">Ejercicio practico</h1> <br> <br>
+                <h3>* Seleccione la respuesta correcta</h3> <br>
+                <h3> 8x³ +12x² +6x +1 </h3>
+                <div id = "info" class="mensaje"></div>
+                <form name = "miForm" onsubmit= "return validarF8();">
+                    <label><input type="checkbox" name="checkb1" id="mID"/> (2x + 1)³</label><br>
+                    <label><input type="checkbox" name="checkb2" id="mID"/> (3x + 1)³</label><br>
+                    <label><input type="checkbox" name="checkb3" id="mID"/> (4 + 1x)³</label><br><br><br>
+                    <input type="submit" value="Verificar" class="botonV">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
