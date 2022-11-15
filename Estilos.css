@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ :root{
+    --color-secondary: #2249b4;
+    --boton-padding: 20px 40px;
+}
+ 
+ body{
+     font-family: 'Montserrat', sans-serif;
+     background:url(/Imagenes/Portada\ de\ Facebook\ Halloween\ Sale\ Ilustrado\ Morado\ y\ Naranja\(2\).png);
+     background-size: cover;
+     background-position: center;
+ }
+ .Bienvenida{
+    width:100vw;
+    height: 100vh;
+    color: #fff;
+ }
+
+ .logo{
+    width: 160px;
+    height: 90px;
+    margin-top: 35%;
+    margin-left: 30%;
+    border-radius: 15px;
+ }
+ .home{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+ }
+ .fondo{
+    width: 100vw;
+    height: 115vh;
+    background-color: #087c9f;
+    color: #fff;
+}
+.fondo h1{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+.fondo h3{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Bloque1{
+    height: 5em;
+    width: 30em;
+}
+
+.Bloque2{
+    margin-top: -6%;
+    margin-left: 650px;
+    height: 30em;
+    width: 30em;
+}
+
+.colum1{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.botones{
+    display: inline-block;
+    margin-top: 50px;
+    background: #fff;
+    color:black;
+    padding: var(--boton-padding);
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.botones:hover{
+    color: #fff;
+    background-color: rgba(13, 195, 53, 0.777);
+    transition:ease-in .3s;
+}
+
+.columna2{
+    margin: 0 auto; 
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+.fondo1{
+    width: 100vw;
+    height: auto;
+    background-color: #ca6923;
+    color: #fff;
+}
+
+.titulos h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.titulos h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.titulos img{
+    margin-top: 20px;
+    margin-left: 500px; 
+}
+
+.parrafos{
+    width: 790px;
+    height: auto;
+    margin-left: 50px;
+}
+.fondo1 p{
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.parrafos video{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.campo{
+    width: 290px;
+    height: 30px;
+    border: none;
+    cursor: text;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.botonV{
+    background: #fff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.botonV:hover{
+    background: #087c9f;
+    color: #fff;
+}
+.ejercicio img{
+    width: 20em;
+    margin-left: 60%;
+}
+
+.fondo2{
+    width: 100vw;
+    height: auto;
+    background-color: #07a25c;
+    color: #fff;
+}
+.fondo2 img{
+    width: 25em;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+.fondo2 .home{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.mensaje{
+    font-size: 20px;
+    margin-left: 80px;
+    width: 20vw;
+    height: 5vh;
+}
+.Juega{
+    background: rgba(5, 237, 210, 0.9);
+    width: 110px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Juega a{
+    text-decoration: none;
+    color: rgb(5, 21, 190);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.Juega :hover{
+    color: #fff;
+}
